@@ -12,7 +12,7 @@ namespace Opgave4
                 string weightInput = Console.ReadLine();
                 int.TryParse(weightInput, out int weight);
                 int postage = 0;
-                Console.WriteLine("Ønsker du at sende brevet som ekspres? (J/N)");
+                Console.WriteLine("Øsker du at sende brevet som ekspres? (J/N)");
                 string ekspres = Console.ReadLine();
                 if(weight > 0 && weight < 20)
                 {
